@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feel.code translate - JavaScript</title>
+    <link rel="icon" href="./assets/photo_2024-10-25_22-14-38.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+<body>
+    <header class="header"> 
+        <div class="container">
+            <nav class="navbar">
+                <div class="navbar__logo">
+                    <img class="header__img" src="./assets/photo_2024-10-26_09-45-40.jpg" alt="">
+                </div>
+                <ul class="navbar__collection">
+                    <li class="navbar__item">
+                        <a href="https://en.wikipedia.org/wiki/Brendan_Eich"><span>Biz haqimizda</span></a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="https://www.w3schools.com/js/default.asp"><span>Menyu</span></a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="https://najottalim.uz/?srsltid=AfmBOopi8T5G4IA3D5_q2yyXY29CMyT5TlFt53PB0mqQDtSv1oUI-RKq"><span>Darslar</span></a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="tel:+998889990969"><span>+998889990969</span></a>
+                    </li>
+                </ul>
+                <div class="navbar__menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero__wrapper">
+                    <div class="hero__text">
+                        <p>Brendan Eich ( 1961 yil 4-iyulda tug'ilgan) [1] - amerikalik kompyuter dasturchisi va texnologiya bo'yicha menejer. U JavaScript dasturlash tilini yaratdi va Mozilla loyihasi, Mozilla Foundation va Mozilla Corporation asoschilaridan biri. U bosh ijrochi direktor etib tayinlanishidan oldin Mozilla korporatsiyasining bosh texnik direktori bo'lib ishlagan, biroq tayinlanganidan ko'p o'tmay, bir jinsli nikohga qat'iy qarshilik ko'rsatgani tufayli iste'foga chiqdi. Keyinchalik u Brave Software kompaniyasining asoschisi va bosh direktori bo'ldi.</p>
+                        <h4>Eich Pitsburgda o'sgan; Gaithersburg, Merilend; va Palo Alto,[2] u erda Ellvud P.Kubberli o'rta maktabida o'qigan va 1979 yilda sinfni tamomlagan. U Santa Klara universitetida matematika va informatika bo'yicha bakalavr darajasini olgan[2] va 1985 yilda magistrlik darajasini olgan. Illinoys universiteti Urbana-Champaign.[2] Eich Rim-katolikdir.[1]
+                        U o'z faoliyatini Silicon Graphics kompaniyasida boshlagan, u yetti yil davomida operatsion tizim va tarmoq kodi ustida ishlagan.[3] Keyin u MicroUnity Systems Engineering kompaniyasida mikroyadro va DSP kodini yozishda uch yil ishladi.[iqtibos keltirish kerak].</h4>
+                    </div>
+                    <div class="hero__box"> 
+                        <img class="hero__image" src="./assets/Brendan_Eich_Mozilla_Foundation_official_photo.jpg" alt="">
+                        <div class="hero__box__text">
+                            <h1>Brendan Eich</h1>
+                        <h3>Eich 2012 yilda
+                            1961 yil 4-iyulda tug'ilgan (63 yosh)
+                            Pittsburgh, Pennsylvania, Amerika Qo'shma Shtatlari
+                            Olma mater Illinoys universiteti Urbana-Champaign Santa Klara universiteti
+                            JavaScript-ni yaratish bilan tanilgan va Mozilla loyihasi, Mozilla Foundation va Mozilla Corporation asoschilaridan biri.</h3>
+                        <img class="hero__img" src="./assets/images.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <div class="container">
+                <div class="card__title">
+                    <h1>JavaScriptning Data type mavzusi</h1>
+                </div>
+                <div class="card__box">
+                  <h2>Data typesning tarjimasi:Malumot turlar deyiladi.</h2>
+                  <h3>Data types ikkiga bo'linadi</h3>
+                  <h4>1.Primitive</h4>
+                  <h4>2.Non-primitive (referense, complex)</h4>
+                </div>
+                <div class="card__box__data">
+                    <h1>1.Primitive</h1>
+                    <h2>1.Number: Hayotimiz mobaynida foydalanadigon xar bir raqamlar ishtirok etgan jumlalar Number deyiladi.</h2>
+                    <div class="card__topic">
+                        <h3>consoleda Number chiqishi uchun misol keltiraman</h3>
+                        <h3>let raqam = 7</h3> 
+                        <h3>console.log(typeof raqam)</h3>
+                    </div>
+                </div>
+                <div class="card__box__data">
+                    <h1>1.Primitive</h1>
+                    <h2>2.String: ism sharif, shahar, joy nomlari va ""qo'shtirnoq kelgan gaplarga String deyiladi.</h2>
+                    <div class="card__topic">
+                        <h3>consoleda String chiqishi uchun misol keltiraman</h3>
+                        <h3>let ism = "Farrux"</h3> 
+                        <h3>console.log(typeof ism)</h3>
+                    </div>
+                </div>
+                <div class="card__box__data">
+                    <h1>1.Primitive</h1>
+                    <h2>3.Booling: 2ta atributi bor 1true-yoq degani, 2false-xa degani</h2>
+                    <div class="card__topic">
+                        <h3>consoleda Booling chiqishi uchun misol keltiraman</h3>
+                        <h3>let isMarrid =true</h3> 
+                        <h3>console.log(typeof isMarrid)</h3>
+                    </div>
+                </div>
+                <div class="card__box__data">
+                    <h1>1.Primitive</h1>
+                    <h2>4.Undefined: Consoleda xam undefined xech narsa chiqmasa undefined deb chiqadi</h2>
+                    <div class="card__topic">
+                        <h3>consoleda Undefined chiqishi uchun misol keltiraman</h3>
+                        <h3>let none</h3> 
+                        <h3>console.log(none)</h3>
+                    </div>
+                </div>
+                <div class="card__box__data">
+                    <h1>1.Primitive</h1>
+                    <h2>5.Null:ich bo'sh degani</h2>
+                    <div class="card__topic">
+                        <h3>consoleda Object deb chiqadi va uni chiqishi uchun misol keltiraman</h3>
+                        <h3>let empty = null</h3> 
+                        <h3>console.log(typeof empty)</h3>
+                    </div>
+                </div>
+                <div class="card__box__data">
+                    <h1>1.Primitive</h1>
+                    <h2>6.Symboll: bir biriga teng bo'lmaydigon narsalarga Symbollda ishlanadi</h2>
+                    <div class="card__topic">
+                        <h3>consoleda unique chiqishi uchun misol keltiraman</h3>
+                        <h3>let unique = symboll </h3> 
+                        <h3>console.log(typeof unique)</h3>
+                    </div>
+                </div>
+                <div class="card__box__data">
+                    <h1>1.Primitive</h1>
+                    <h2>7.Bigint:Kop sonli raqamlarga n qoysa Bigind chiqadi</h2>
+                    <div class="card__topic">
+                        <h3>consoleda Bigint chiqishi uchun misol keltiraman</h3>
+                        <h3>let bigint = 15000000000000000000000000n </h3> 
+                        <h3>console.log(typeof bigint)</h3>
+                    </div>
+                </div>
+            </div>
+           
+        </section>
+
+        <section class="math">
+            <div class="container">
+                <div class="math__title">
+                    <h1>JavaScriptning Math mavzusi</h1>
+                </div>
+                <div class="math__box">  
+                    <strong>1.Round matematik yaxlitlash</strong>  
+                    <h3>0, 1, 2, 3, 4 bular 0ga teng</h3>
+                    <h3>5, 6, 7, 8, 9 bular 1ga teng</h3>
+                <div class="math__topic">
+                    <h2>let x = 9.5</h2>
+                    <h2>console.log(Math.round (x)); Javob:10</h2>
+                </div>
+                </div>
+                <div class="math__box">
+                    <strong>2.Floor kichik songa yaxlitlash</strong>    
+                    <h3>-0, -1,-2, -3, -4 bular 1ga teng</h3>
+                    <h3>-5, -6, -7, -8, -9 bular 0ga teng</h3>
+                <div class="math__topic">
+                    <h2>let x = -9.1</h2>
+                    <h2>console.log(Math.round (x)); Javob:-10</h2>
+                </div>
+                </div>
+                <div class="math__box">
+                    <strong>3.Ceil katta songa yaxlitlash</strong>    
+                    <h3>0, 1,2, 3, 4, 5, 6, 7, 8, 9 bular 1ga teng</h3>
+                <div class="math__topic">
+                    <h2>let x = 9.1</h2>
+                    <h2>console.log(Math.round (x)); Javob:10</h2>
+                </div>
+                </div>
+                <div class="math__box">
+                    <strong>4.Pow cub, daraja deyiladi</strong>    
+                <div class="math__topic">
+                    <h2>let x = 5, 3</h2>
+                    <h2>console.log(Math.pow (5, 3) (x)); Javob:125</h2>
+                </div>
+                </div>
+                <div class="math__box">
+                    <strong>5. Sqrt Darajaning ildizi</strong>    
+                <div class="math__topic">
+                    <h2>console.log(Math.sqrt (16) (x)); Javob:4</h2>
+                </div>
+                </div>
+                <div class="math__box">
+                    <strong>6. Random - 0dan 1gacha son qaytariladi ixtiyoriy </strong>    
+                <div class="math__topic">
+                    <h2>let son Math.Random() * 10</h2>
+                    <h2>console.log (son); Javob: luboy son chiqishi mumkin</h2>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer">
+            <div class="container">
+                <div class="footer__wrapper">
+                    <div class="footer__text">
+                        <h2>© Mualliflik huquqi <a href="http://127.0.0.1:5500/index.html">Feel.code</a> Barcha huquqlar himoyalangan</h2>
+                    </div>
+                    <div class="footer__link">
+                        <a href="https://www.instagram.com/jamoldinovv___/profilecard/?igsh=MThtemt4OGZoeXl0ag=="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://t.me/@biloliddinovic"><i class="fa-brands fa-telegram"></i></a>
+                        <div class="footer__number">
+                            <a href="tel:+998889990969">+998889990969</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+<script src="./app.js"></script>
+</body>
+</html>
